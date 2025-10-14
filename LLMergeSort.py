@@ -30,7 +30,7 @@
             # end the first part here itself with prev node.
             prev.next = None 
             return firstPart, secondPart
-                  def merge(head, second):
+        def merge(head, second):
             # we use recursion to merge both parts of the linked lists
             if head is None:
                 return second
