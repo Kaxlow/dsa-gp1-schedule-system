@@ -33,3 +33,5 @@ The `tests` folder contain scripts for pytest to assert that the code works as e
 
 ## Setup and Execution
 The `py_classes_ken` package can be installed in a python environment. After installing the package, it and any of the modules within can be called in Python code.
+
+## Team Roles
