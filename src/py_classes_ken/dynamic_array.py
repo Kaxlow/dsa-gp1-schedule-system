@@ -91,11 +91,11 @@ class DynamicArray:
       larger = []
       for ele in arr:
         if self._set_sort_attr(ele, sort_by) < self._set_sort_attr(pivot, sort_by):
-          smaller.append(ele)
+          smaller += [ele]
         elif self._set_sort_attr(ele, sort_by) > self._set_sort_attr(pivot, sort_by):
-          larger.append(ele)
+          larger += [ele]
         else:
-          center.append(ele)
+          center += [ele]
       # Recursively split sub-arrays around new pivots until no longer possible
       # Join split arrays in order
       arr = self._quick_sort(smaller, sort_by) + center + self._quick_sort(larger, sort_by)
