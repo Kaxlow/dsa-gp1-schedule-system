@@ -6,7 +6,7 @@ import os,sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from src.LinkedListClass import LinkedList
-
+# use this command to test this, pytest --benchmark-only
 def generate_events(n):
     base = datetime(2025, 1, 1, 0, 0)
     events = []
