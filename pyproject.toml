@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py_classes_ken"
+version = "0.0.1"
+authors = [
+  { name="Ken Low", email="kenxhlow@gmail.com" },
+]
+description = "custom classes for a schedule system"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/Kaxlow/dsa-gp1-schedule-system"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src"
+]
