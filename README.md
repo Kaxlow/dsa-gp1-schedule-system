@@ -35,3 +35,7 @@ The `tests` folder contain scripts for pytest to assert that the code works as e
 The `py_classes_ken` package can be installed in a python environment. After installing the package, it and any of the modules within can be called in Python code.
 
 ## Team Roles
+Ken worked on the sort, search, and conflict detection algorithms and the supporting methods `insert`, `delete`, `search_by_id` and `list_all` for both the dynamic array and linked list structures. Ken ran the sort, search, and conflict detection algorithms on different sample sizes of events and documented the time taken in each scenario, then plotted charts showing the differences in time taken.
+Chushmitha worked on the sort methods for both the dynamic array and linked list structures, complexity of operations, and suggested optimizations.
+Himanshu worked on the conflict detection and search methods for the dynamic array class, as well as complexity of operations
+Abhirama worked on on the sort, search, and conflict detection algorithms and the supporting methods `insert`, `delete`, `search_by_id` and `list_all` for both the dynamic array and linked list structures. Abhirama also wrote about the system's scalability using both the dynamic array and linked list structures, performing an analysis of memory usage and suggesting improvements to conflict detection.
